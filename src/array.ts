@@ -24,5 +24,14 @@ numbers.push(4); // no error
 console.log(numbers); // [1, 2, 3, 4]
 
 let head: number = numbers[0]; // no error
+// head = "1"; // Error: Type'string' is not assignable to type 'number'.
+//  let err : string = numbers[0]; // Error: Type 'number' is not assignable to type'string'.
 
-console.log(head); // 1
+// console.log(head); // 1
+
+// Mixed Array:
+
+let mixed = ["Bob", 23, true, "Dylan", 4, 12];
+mixed.push("Alice"); // No error
+mixed.push(11); // No error
+console.log(mixed); 
