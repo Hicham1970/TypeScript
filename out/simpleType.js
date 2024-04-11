@@ -41,3 +41,4 @@ let x = true;
 // Type undefined and null: These types don't have much use unless strictNullChecks is enabled in the tsconfig.json file.
 let y = undefined;
 let z = null;
+//# sourceMappingURL=simpleType.js.map
