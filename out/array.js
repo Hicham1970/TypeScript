@@ -22,7 +22,7 @@ let head = numbers[0]; // no error
 // console.log(head); // 1
 // Mixed Array:
 let mixed = ["Bob", 23, true, "Dylan", 4, 12];
-mixed.push("Alice");
-mixed.push(11);
-console.log(mixed); // ['
+mixed.push("Alice"); // No error
+mixed.push(11); // No error
+console.log(mixed);
 //# sourceMappingURL=array.js.map
