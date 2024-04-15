@@ -36,22 +36,27 @@ interface Vegetables {
 }
 
 // Avec l'interface on peut créer d'autre  interface qui hérite des caractéristiques de l'interface Vegetable.et qui possède des propriété en plus.
-interface Fruit  extends Vegetables {
-  price: number;
-}
+// interface Fruit  extends Vegetables {
+//   price: number;
+// }
+// Même chose que le code en haut:
+type Fruit = Vegetables & { price: number };
 
 let Fruit1: Fruit = {
   name: "Orange",
   color: "Orange",
   taste: "Sweet",
-    allSeason: true,
-  price: 12
+  allSeason: true,
+  price: 12,
 };
 
 let Fruit2: Fruit = {
   name: "Banana",
   color: "Yellow",
   taste: "Sweet",
-    allSeason: true,
-  price:22
+  allSeason: true,
+  price: 22,
 };
+
+console.log(Fruit1);
+console.log(Fruit2);
