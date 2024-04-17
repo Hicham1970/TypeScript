@@ -54,4 +54,5 @@ function addRestParameter(a, b, ...rest) {
     return sum + rest.length;
 }
 console.log(addRestParameter(3, 4, 12, 9, 3, 4, 12, 9));
+// nothing exceptional with the Casting .
 //# sourceMappingURL=FunctionsAndCasting.js.map
